@@ -1,0 +1,1 @@
+for tempfile in `ls ./`;  do gsed -i 's/123/abc/g' readme.txt;  done;
